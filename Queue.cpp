@@ -24,7 +24,6 @@ private:
   Node<T>* m_next;
 };
 
-
 // Overloaded constructor for Node
 template <class T>
 Node<T>::Node( const T& data ) {
@@ -32,13 +31,11 @@ Node<T>::Node( const T& data ) {
    m_next = nullptr;
 }
 
-
 // Gets the data from the Node
 template <class T>
 T Node<T>::GetData() {
   return m_data;
 }
-
 
 // Sets the data in a Node
 template <class T>
@@ -46,13 +43,11 @@ void Node<T>::SetData( const T& data ) {
    m_data = data;
 }
 
-
 // Gets the pointer to the next Node
 template <class T>
 Node<T>* Node<T>::GetNext() {
    return m_next;
 }
-
 
 // Sets the next Node
 template <class T>
@@ -101,7 +96,6 @@ class Queue {
   // Post-conditions: Removes first node in the queue and
   //                  returns the data in the first node
   T PopFront();
-
 
   // Name: Display
   // Pre-conditions: Outputs the queue.

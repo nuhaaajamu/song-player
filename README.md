@@ -1,4 +1,4 @@
-# Song Player / Playlist Manager (C++)
+# Music Playlist Manager (C++)
 
 ## Overview
 Menu-driven C++ application that loads a song catalog from a text file and allows users to search by title or artist, build a playlist, and sort songs by Spotify streams.
